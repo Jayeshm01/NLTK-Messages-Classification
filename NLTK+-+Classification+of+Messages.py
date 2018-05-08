@@ -15,7 +15,7 @@ get_ipython().magic('matplotlib inline')
 # In[4]:
 
 
-# Read the reviews
+# Read the messages
 messages = [line.rstrip() for line in open ('SMSSpamCollection')]
 print(len(messages))
 
@@ -23,7 +23,7 @@ print(len(messages))
 # In[5]:
 
 
-# Print the reviews
+# Print the messages
 for message_no, message in enumerate(messages[:10]):
     print(message_no,message)
     print('\n')
